@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Leonico K. De Asis, a web developer focused on fast, polished, responsive websites." />
+  <title>Leonico K. De Asis | Web Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Leonico home">
+      <span class="brand-mark">L</span>
+      <span>Leonico</span>
+    </a>
+
+    <nav class="site-nav" id="nav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#projects">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="header-cta" href="#contact">
+      <i data-lucide="send" aria-hidden="true"></i>
+      Hire Me
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <i data-lucide="menu" aria-hidden="true"></i>
+    </button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Available for web projects in 2026</p>
+        <h1>
+          <span class="name-line">Leonico</span>
+          <span class="name-line">K. De Asis</span>
+        </h1>
+        <p class="role-line">
+          <span id="typing" aria-live="polite">Web Developer</span>
+          <span class="cursor" aria-hidden="true"></span>
+        </p>
+        <p class="hero-lede">
+          I build fast, responsive portfolio sites, business landing pages, and practical dashboards with clean interfaces and smooth interaction.
+        </p>
+
+        <div class="hero-actions" aria-label="Main actions">
+          <a class="btn btn-primary" href="#projects">
+            <i data-lucide="layout-dashboard" aria-hidden="true"></i>
+            View Work
+          </a>
+          <a class="btn btn-secondary" href="#contact">
+            <i data-lucide="message-circle" aria-hidden="true"></i>
+            Start a Project
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="portrait-card">
+          <img src="pixnico-removebg-preview.png" alt="Portrait of Leonico K. De Asis" />
+          <div class="status-chip">
+            <span></span>
+            Open to work
+          </div>
+        </div>
+
+        <div class="hero-stats" aria-label="Portfolio highlights">
+          <article>
+            <strong>10+</strong>
+            <span>Project builds</span>
+          </article>
+          <article>
+            <strong>3</strong>
+            <span>Core stacks</span>
+          </article>
+          <article>
+            <strong>100%</strong>
+            <span>Responsive</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Technical stack">
+      <div>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>PHP</span>
+        <span>MySQL</span>
+        <span>Responsive UI</span>
+        <span>Clean UX</span>
+        <span>Performance</span>
+        <span>VS Code</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section-shell section-block">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Modern builds with practical purpose.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured reveal">
+          <div class="project-preview dashboard-preview" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div>
+            <p class="project-type">Portfolio System</p>
+            <h3>Personal Brand Website</h3>
+            <p>A polished one-page profile with strong first impression, responsive layout, animated details, and clear contact flow.</p>
+          </div>
+          <div class="tag-row" aria-label="Technologies">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-preview app-preview" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div>
+            <p class="project-type">Admin Tool</p>
+            <h3>Management Dashboard</h3>
+            <p>Login, data tables, and organized controls for day-to-day business operations.</p>
+          </div>
+          <div class="tag-row" aria-label="Technologies">
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>UI</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-preview landing-preview" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div>
+            <p class="project-type">Marketing Page</p>
+            <h3>Conversion Landing Page</h3>
+            <p>Focused copy, visual hierarchy, and mobile-first sections for services and offers.</p>
+          </div>
+          <div class="tag-row" aria-label="Technologies">
+            <span>Layout</span>
+            <span>Motion</span>
+            <span>SEO</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section-shell section-block about-grid">
+      <div class="about-copy reveal">
+        <p class="eyebrow">About</p>
+        <h2>I turn ideas into clear, usable web experiences.</h2>
+        <p>
+          My work focuses on clean structure, readable interfaces, responsive behavior, and practical code. I like sites that feel current without becoming hard to use.
+        </p>
+      </div>
+
+      <div class="skill-panel reveal">
+        <article>
+          <span>01</span>
+          <div>
+            <h3>Frontend Craft</h3>
+            <p>Semantic HTML, modern CSS, animation, and mobile layouts.</p>
+          </div>
+        </article>
+        <article>
+          <span>02</span>
+          <div>
+            <h3>Dynamic Builds</h3>
+            <p>JavaScript behavior, form flows, dashboards, and PHP/MySQL systems.</p>
+          </div>
+        </article>
+        <article>
+          <span>03</span>
+          <div>
+            <h3>Polish</h3>
+            <p>Spacing, typography, color, and small details that make a site feel finished.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell section-block process-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Workflow</p>
+        <h2>Simple process, strong finish.</h2>
+      </div>
+
+      <div class="process-grid">
+        <article class="reveal">
+          <i data-lucide="search-check" aria-hidden="true"></i>
+          <h3>Plan</h3>
+          <p>Define goals, pages, content, and the right visual direction.</p>
+        </article>
+        <article class="reveal">
+          <i data-lucide="pen-tool" aria-hidden="true"></i>
+          <h3>Design</h3>
+          <p>Build a sharp layout with clear hierarchy and responsive spacing.</p>
+        </article>
+        <article class="reveal">
+          <i data-lucide="code-2" aria-hidden="true"></i>
+          <h3>Develop</h3>
+          <p>Turn the design into clean, working HTML, CSS, and JavaScript.</p>
+        </article>
+        <article class="reveal">
+          <i data-lucide="rocket" aria-hidden="true"></i>
+          <h3>Launch</h3>
+          <p>Review, refine, and prepare the website for real visitors.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section-shell section-block contact-section">
+      <div class="contact-card reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Have a website idea?</h2>
+          <p>Send a message and I will help shape it into a clear, modern web presence.</p>
+          <div class="contact-links">
+            <a href="mailto:deasisleonico10@.com>
+              <i data-lucide="mail" aria-hidden="true"></i>
+              deasisleonico10@gmail.com
+            </a>
+            <a href="tel:+639000000000">
+              <i data-lucide="phone" aria-hidden="true"></i>
+              +63 9612334382
+            </a>
+          </div>
+        </div>
+
+        <form id="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" placeholder="Tell me about your project" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">
+            <i data-lucide="send" aria-hidden="true"></i>
+            Send Message
+          </button>
+          <p class="form-note" id="form-note" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Leonico K. De Asis. Built with HTML, CSS, and JavaScript.</p>
+    <a href="#home" aria-label="Back to top">
+      <i data-lucide="arrow-up" aria-hidden="true"></i>
+    </a>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
