@@ -41,7 +41,7 @@ Hi! I'm Leonico, a passionate Web Developer & Designer from the Philippines 🇵
 ---
 
 ## 📬 Contact
-- 📧 Email: your@email.com
+- 📧 Email: deasisleonico10@gmail.com
 - 🌍 Philippines
 
 ---
